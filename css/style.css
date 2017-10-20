@@ -1,0 +1,57 @@
+h1 {
+    width: 900px;
+    height: 60px;
+    padding: 0 20px;
+    background: #f8aa0e;
+    outline: 1px solid yellow;
+    text-align: center;
+    position: relative;
+    left: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.caja {
+    /*outline: 1px solid red;*/
+    width: 300px; /*Ancho del contenido*/
+    padding: 10px; /*espaciado al rededor del contenido*/
+    border: 1px solid #999; /*hacer un borde al rededor del contenido*/
+    margin: 0px; /*separa*/
+    box-sizing: border-box;
+    float: left; 
+    margin-left: 8px;
+}
+
+main {
+    position: relative;
+    left: 300px;
+}
+
+img {
+    outline: 1px solid blue; /*Siempre que quiero ver como se modifica mis cajas utilizo outline*/
+    max-width: 80%; /*Ajusta la imagen al tamaño de su contenedor*/
+    display: block;
+    margin: auto;
+}
+
+ p
+ {
+    outline: 1px solid orange;
+    width: 220px;
+    font-size: 20px;
+    
+    /*Float: sirve para posicionar elementos flotar los elementos, para que el flujo del elemnto se modifique */
+}
+
+#footer {
+    /*bottom: 0px;  */  
+    width: 900px;
+    height: 90px;
+    padding: 0 20px;
+    background: #fdb51a;
+    text-align: center;
+    position: relative;
+    top: 550px;
+}
